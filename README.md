@@ -1,5 +1,5 @@
 
-# Trabalho 1 - Batalha Naval em Python 🛥️
+# Trabalho 1 - Batalha Naval em Python 🏞️🛥️⚓
 
 ## Descrição
 Este projeto é uma implementação de duas structs em C, desenvolvida como parte da disciplina de Algoritmos e Estruturas de Dados 1. O objetivo é praticar conceitos fundamentais como manipulação de estruturas, iterações, e organização de dados.
@@ -17,16 +17,13 @@ Este projeto é uma implementação de duas structs em C, desenvolvida como part
 
 
 
-COMO INICIAR/TERMINAR: descrevendo como iniciar e terminar a execução do
-sistema estando na tela principal.
-o OPÇÕES OFERECIDAS: descrevendo todas as opções oferecidas pelo sistema ao
-usuário.
-o PRINCIPAIS TELAS: apresentando as principais telas de interface com o usuário.
-o CONCLUSÃO: apresentando considerações finais sobre o sistema, limitações,
-problemas, etc.
+COMO INICIAR/TERMINAR: 
+o OPÇÕES OFERECIDAS: 
+o PRINCIPAIS TELAS: 
+o CONCLUSÃO: 
 
 ## 📋 Trabalho Proposto 🏞️🛥️⚓
-Jogo de **Batalha Naval** 
+**Jogo de Batalha Naval** 
 1. Jogo de batalha naval do jogador contra o computador
 2. Deve haver dois tabuleiros: um do jogador e outro do computador, ambos de 10 x 10
 posições
@@ -42,7 +39,7 @@ direito a dar outro tiro
 8. O programa deve permitir, através de um comando especial, que o jogador veja o
 tabuleiro do computador (para testes)
 
-Observações importantes:
+**Observações importantes:**
 - O trabalho deve ser realizado individualmente por cada aluno.
 - O trabalho deverá ser entregue, única e exclusivamente, por meio de um repositório no
 GitHub.
@@ -64,7 +61,11 @@ automaticamente anulados.
 - Foi utilizada a função `scanf` para entrada de dados e `printf` para exibição.
 - A lógica de associação entre alunos e responsáveis foi feita com base nos alunos menores de idade.
 
-## Opções Oferecidas
+## 👨‍💻💻 Opções Oferecidas
+
+descrevendo todas as opções oferecidas pelo sistema ao
+usuário.
+
 O projeto implementa as seguintes funcionalidades:
 1. Popular um vetor de 100 alunos com uma estrutura de repetição.
 2. Mostrar a quantidade de alunos menores de idade cadastrados.
@@ -77,6 +78,9 @@ O projeto implementa as seguintes funcionalidades:
 
 
 ## 📊 Principais Telas
+
+apresentando as principais telas de interface com o usuário.
+
 Exemplo de saída ao cadastrar alunos e responsáveis:
 ```
 Digite o nome do aluno 1: João
@@ -91,15 +95,21 @@ Telefone: 123456789
 ```
 
 
-## Conclusão
-fasfdasd
+## 📈 Conclusão
+
+ apresentando considerações finais sobre o sistema, limitações,
+problemas, etc.
 
 
 ## 📂 Estrutura de Arquivos
-- `main.c`: Código-fonte principal do projeto.
+- `batalhanaval.py`: Código-fonte principal do projeto.
 - `README.md`: Este arquivo, com a descrição do projeto.
 
 ## 🚀 Como inicializar finalizar
+
+descrevendo como iniciar e terminar a execução do
+sistema estando na tela principal.
+
 1. Certifique-se de ter o compilador GCC instalado.
 2. Compile o código com o comando:
    ```bash
