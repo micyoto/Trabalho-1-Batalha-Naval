@@ -7,25 +7,23 @@ Este repositório contém uma implementação em Python de um jogo simples de Ba
 O arquivo principal é `batalhanaval.py`, que implementa a classe `BatalhaNaval` e um loop de jogo interativo via terminal.
 
 ## Índice
-- [Descrição](#descrição)
-- [Trabalho Proposto](#trabalho-proposto)
-- [Implementação](#️-implementação)
-- [Opções Oferecidas](#opcoes-oferecidas)
-- [Principais Telas](#principais-telas)
-- [Como iniciar / finalizar o jogo](#como-iniciar-finalizar)
-- [Conclusão](#conclusão)
-- [Contribuição](#contribuição)
 
-- [Visão geral do jogo](#visão-geral-do-jogo)
-- [Requisitos](#requisitos)
-- [Como executar](#como-executar)
+- [Descrição](#descrição)
+- [Trabalho Proposto](#📋-trabalho-proposto-🏞️🛥️⚓)
+- [Implementação](#🛠️-implementação)
+- [Opções Oferecidas](#👨‍💻💻-opções-oferecidas)
+- [Principais Telas](#📊-principais-telas)
+- [Conclusão](#📈-conclusão)
+- [Estrutura de Arquivos](#📂-estrutura-de-arquivos)
 - [Estrutura do código](#estrutura-do-código)
-- [Descrição das funções principais](#descrição-das-funções-principais)
-- [Fluxo do jogo e regras](#fluxo-do-jogo-e-regras)
-- [Modo de teste](#modo-de-teste)
-- [Limitações conhecidas](#limitações-conhecidas)
-- [Possíveis melhorias](#possíveis-melhorias)
-- [Conclusão (modelo)](#conclusão-modelo)
+- [Como inicializar finalizar](#🚀-como-inicializar-finalizar)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+ - [Descrição das funções principais](#descrição-das-funções-principais)
+ - [Fluxo do jogo e regras](#fluxo-do-jogo-e-regras)
+ - [Modo de teste](#modo-de-teste)
+ - [Limitações conhecidas](#limitações-conhecidas)
+ - [Possíveis melhorias](#possíveis-melhorias)
 
 
 
@@ -71,7 +69,7 @@ automaticamente anulados.
 
 
 ## 👨‍💻💻 Opções Oferecidas
-**Descrição das funções principais (em `BatalhaNaval`)**
+## Descrição das funções principais
 - __init__(tamanho=10): Inicializa os tabuleiros (matriz com `~` para água) e contadores de embarcações.
 - posicionar_embarcacao(tabuleiro, x, y): Tenta colocar uma embarcação na posição (x,y). Retorna True se posicionou, False caso já ocupado ou inválido.
 - atacar(tabuleiro, x, y): Realiza um ataque nas coordenadas fornecidas. Retorna mensagens:
@@ -82,7 +80,7 @@ automaticamente anulados.
 - exibir_tabuleiro_ataque(tabuleiro): Mostra o tabuleiro do adversário escondendo navios não atingidos (substitui `N` por `~`).
 - verificar_vitoria(tabuleiro): Conta as células `X` e considera vitória quando atingir 5 (número de embarcações do jogo).
 
-**Fluxo do jogo e regras (implementadas)**
+## Fluxo do jogo e regras
 1. O jogador posiciona 5 embarcações manualmente informando coordenadas `x y` (0-9).
 2. O computador posiciona aleatoriamente 5 embarcações.
 3. Inicia o loop principal com menu:
@@ -92,7 +90,7 @@ automaticamente anulados.
 4. Computador ataca em coordenadas aleatórias não repetidas; se acertar, indica e joga novamente.
 5. O jogo termina quando todas as 5 embarcações de um dos lados forem afundadas.
 
-**Modo de teste / Apresentar o mapa do computador**
+## Modo de teste
 No menu, escolher a opção 2 — o jogo exibe o tabuleiro completo do computador (com `N` nas posições de embarcações). Isso é intencional para facilitar testes e depuração.
 
 
@@ -191,14 +189,14 @@ Esses exemplos refletem o comportamento atual do programa.
 
 Este projeto implementa uma versão funcional da Batalha Naval em Python com foco em conceitos básicos de programação: manipulação de matrizes, tratamento de entrada do usuário, controle de fluxo e estruturação em classe. Apesar das simplificações (cada embarcação ocupa uma célula), o jogo cobre a maior parte da lógica central de um jogo por turnos: posicionamento, ataque, exibição de estado e verificação de vitória.
 
-**Limitações:** 
+## Limitações conhecidas
 - Cada embarcação ocupa apenas uma célula;
 - A interface é por terminal;
 - Não há IA avançada;
 - Posicionamento do jogador é manual;
 - A verificação de vitória assume exatamente 5 acertos para declarar vencedor.
 
-**Melhorias possíveis:** 
+## Possíveis melhorias
 - Suportar navios multi-célula com validação de orientação/ocupação;
 - Implementar uma IA com estratégia de perseguição após acertos;
 - Adicionar testes automatizados para aumentar a confiabilidade do código;
